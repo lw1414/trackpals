@@ -9298,12 +9298,6 @@
 		(uuid "07ec517d-3fae-4a8d-bc0b-13114816110c")
 	)
 	(junction
-		(at 382.5483 123.0473)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12062fb8-de7c-4431-9b88-d3881b50351e")
-	)
-	(junction
 		(at 378.0093 217.1344)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9362,12 +9356,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f87e2b4-a362-4f64-9e88-b74b25eb42b8")
-	)
-	(junction
-		(at 382.5483 122.9467)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58243a1c-94d4-48c7-b25e-250ddad744e7")
 	)
 	(junction
 		(at 137.7668 491.058)
@@ -9896,6 +9884,10 @@
 		(uuid "a1161321-f3d1-4933-95f1-cbf80a4c6de6")
 	)
 	(no_connect
+		(at 358.3068 123.0473)
+		(uuid "a292a949-a3bd-4971-8528-75ba4f54bb0e")
+	)
+	(no_connect
 		(at 327.213 224.7544)
 		(uuid "a3918088-a431-4679-85a5-93eb4855b815")
 	)
@@ -9995,16 +9987,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.5483 122.9467) (xy 382.5483 123.0473)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "011a9bec-df54-4dd1-a8c6-d3a724bec43c")
-	)
-	(wire
-		(pts
 			(xy 118.6795 256.9607) (xy 133.9195 256.9607)
 		)
 		(stroke
@@ -10092,16 +10074,6 @@
 			(type default)
 		)
 		(uuid "04ff6700-ccb2-4ac6-87f3-b6df678d136f")
-	)
-	(wire
-		(pts
-			(xy 382.5483 123.0473) (xy 382.5483 124.1576)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0677e908-54d5-4091-9a97-8a9637c959bc")
 	)
 	(wire
 		(pts
@@ -10915,16 +10887,6 @@
 	)
 	(wire
 		(pts
-			(xy 382.5483 121.6176) (xy 382.5483 122.9467)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "402b200b-f812-4ed6-895f-1833dda29cf4")
-	)
-	(wire
-		(pts
 			(xy 351.9568 70.3423) (xy 343.0668 70.3423)
 		)
 		(stroke
@@ -11102,16 +11064,6 @@
 			(type default)
 		)
 		(uuid "4c0c7811-592d-4962-abf2-954ca40103dd")
-	)
-	(wire
-		(pts
-			(xy 388.0131 122.9467) (xy 382.5483 122.9467)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d7c1556-b9f7-4737-b15f-8ad8f6c857bc")
 	)
 	(wire
 		(pts
@@ -12312,16 +12264,6 @@
 			(type default)
 		)
 		(uuid "99f1b520-a07f-46e0-a935-cac02d1261fb")
-	)
-	(wire
-		(pts
-			(xy 358.3068 123.0473) (xy 382.5483 123.0473)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b127891-0eab-4bbd-8b5f-f9ca2e6237bf")
 	)
 	(wire
 		(pts
@@ -14743,28 +14685,6 @@
 			)
 		)
 	)
-	(global_label "SIM_RESET"
-		(shape input)
-		(at 395.6331 122.9467 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify left)
-		)
-		(uuid "fa773e56-d703-4f2d-9b6a-4194a2582c84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 405.8407 122.9467 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ESP_I0"
 		(shape input)
 		(at 360.2118 75.4223 0)
@@ -16204,129 +16124,6 @@
 			(project "trackpals"
 				(path "/4a7d7785-3d59-4dfa-a511-a2ff4dae6764"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 391.8231 122.9467 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "14ef3cba-2b6c-4f55-bfe3-42f88571f4f3")
-		(property "Reference" "JP11"
-			(at 395.6331 120.7451 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 393.093 120.4067 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-			(at 391.8231 122.9467 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 391.8231 122.9467 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 391.8231 122.9467 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order  Status" "Ordered"
-			(at 391.8231 122.9467 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Link" ""
-			(at 391.8231 122.9467 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 391.8231 122.9467 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 391.8231 122.9467 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 391.8231 122.9467 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Delivery Status" ""
-			(at 391.8231 122.9467 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58d53863-5954-4acc-b644-a37a2bb0f7ba")
-		)
-		(pin "2"
-			(uuid "1976c163-15bd-4a61-8bdb-11c44268498c")
-		)
-		(instances
-			(project "trackpals"
-				(path "/4a7d7785-3d59-4dfa-a511-a2ff4dae6764"
-					(reference "JP11")
 					(unit 1)
 				)
 			)
@@ -18290,102 +18087,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 382.5483 117.8076 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2c1f1803-2b3e-4b2e-bf94-1b937194ab3a")
-		(property "Reference" "R28"
-			(at 377.4683 116.4106 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 378.7383 118.4426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 380.7703 117.8076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 382.5483 117.8076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 382.5483 117.8076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C21190"
-			(at 382.5483 117.8076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 382.5483 117.8076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 382.5483 117.8076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b192001-5798-48cc-ae43-7704f0d4af27")
-		)
-		(pin "2"
-			(uuid "06eb7208-cdb2-4816-822c-cc6962137cc7")
-		)
-		(instances
-			(project "trackpals"
-				(path "/4a7d7785-3d59-4dfa-a511-a2ff4dae6764"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 112.033 65.6536 90)
 		(unit 1)
@@ -19546,72 +19247,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 382.5483 131.7776 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f4b8fa1-61e3-409a-90cd-36a9362faa81")
-		(property "Reference" "#PWR075"
-			(at 382.5483 138.1276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 382.5483 137.1116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.5483 131.7776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.5483 131.7776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 382.5483 131.7776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84bba12d-0dac-4649-88c7-e56f4db2baa6")
-		)
-		(instances
-			(project "trackpals"
-				(path "/4a7d7785-3d59-4dfa-a511-a2ff4dae6764"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 331.3702 287.3927 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19878,72 +19513,6 @@
 			(project "trackpals"
 				(path "/4a7d7785-3d59-4dfa-a511-a2ff4dae6764"
 					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 382.5483 113.9976 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47a4d172-9b39-4825-9986-a583689bae60")
-		(property "Reference" "#PWR074"
-			(at 382.5483 117.8076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 382.5483 109.5526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.5483 113.9976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.5483 113.9976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 382.5483 113.9976 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "414da193-943d-460e-baa6-d3e7066e583f")
-		)
-		(instances
-			(project "trackpals"
-				(path "/4a7d7785-3d59-4dfa-a511-a2ff4dae6764"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -30397,102 +29966,6 @@
 			(project "trackpals"
 				(path "/4a7d7785-3d59-4dfa-a511-a2ff4dae6764"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 382.5483 127.9676 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4af2271-996c-43f5-86fe-0c1e84a2de04")
-		(property "Reference" "C26"
-			(at 386.6123 125.5546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 388.2633 130.5076 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 381.5831 124.1576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 382.5483 127.9676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 382.5483 127.9676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C49678"
-			(at 382.5483 127.9676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field7" ""
-			(at 382.5483 127.9676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field6" ""
-			(at 382.5483 127.9676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b22582a-636c-4fe9-923b-91e4a99c03fd")
-		)
-		(pin "2"
-			(uuid "e39df20a-f5c6-4eba-8acc-babdffa50c52")
-		)
-		(instances
-			(project "trackpals"
-				(path "/4a7d7785-3d59-4dfa-a511-a2ff4dae6764"
-					(reference "C26")
 					(unit 1)
 				)
 			)
