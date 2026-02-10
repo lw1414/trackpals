@@ -20702,6 +20702,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2885873"
+			(at 300.2808 238.7244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2692bcf7-aec7-4fdc-be70-43fd9136823f")
 		)
@@ -20931,6 +20940,15 @@
 		)
 		(property "Order Status" "Cart"
 			(at 108.5195 262.0407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49047"
+			(at 108.5195 262.0407 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22236,6 +22254,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5137195"
+			(at 285.4316 238.7244 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa7728fd-0564-431f-87e6-26f0371bd4b3")
 		)
@@ -22803,7 +22830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 413.5647 219.7013 0)
 			(effects
 				(font
@@ -22840,6 +22867,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 413.5647 219.7013 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2892326"
 			(at 413.5647 219.7013 0)
 			(effects
 				(font
@@ -23191,6 +23227,15 @@
 			)
 		)
 		(property "Order Status" "Ordered"
+			(at 74.2295 258.2307 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15850"
 			(at 74.2295 258.2307 0)
 			(effects
 				(font
@@ -25006,6 +25051,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2297"
+			(at 133.9195 263.3107 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99375c3b-4c22-45fc-8c24-e300699cac83")
 		)
@@ -26634,7 +26688,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105578"
+		(property "LCSC" "C25804"
 			(at 104.7095 278.5507 0)
 			(effects
 				(font
@@ -27287,7 +27341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprint_track:SOP-8_L5.0-W4.0-P1.27-LS6.2-BL"
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
 			(at 345.2338 282.8925 0)
 			(effects
 				(font
@@ -27306,6 +27360,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 345.2338 282.8925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C33576253"
 			(at 345.2338 282.8925 0)
 			(effects
 				(font
@@ -28659,6 +28722,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2651358"
+			(at 83.1195 273.4707 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ee54198-285a-47fd-b3a9-3f9dddd6762e")
 		)
@@ -29215,7 +29287,7 @@
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "ea885619-a171-499d-8196-015bcdb507d1")
 		(property "Reference" "JP3"
@@ -29564,7 +29636,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "eec70c99-e0a4-4b1a-9a13-7807fbe48d57")
 		(property "Reference" "JP6"
